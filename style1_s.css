@@ -1,0 +1,304 @@
+/* Hier beginnen die Importe */
+
+@import url("https://p.typekit.net/p.css?s=1&k=rnl8oku&ht=tk&f=24352.24354.24355.43313&a=94740205&app=typekit&e=css");
+
+@font-face {
+  font-family: "canada-type-gibson";
+  src: url("https://use.typekit.net/af/8a1d90/0000000000000000774d5014/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/8a1d90/0000000000000000774d5014/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/8a1d90/0000000000000000774d5014/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 200;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "canada-type-gibson";
+  src: url("https://use.typekit.net/af/af6121/0000000000000000774d5006/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/af6121/0000000000000000774d5006/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/af6121/0000000000000000774d5006/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "canada-type-gibson";
+  src: url("https://use.typekit.net/af/ae6547/0000000000000000774d5013/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/ae6547/0000000000000000774d5013/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/ae6547/0000000000000000774d5013/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "canada-type-gibson";
+  src: url("https://use.typekit.net/af/3dceb1/0000000000000000774d6060/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/3dceb1/0000000000000000774d6060/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/3dceb1/0000000000000000774d6060/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+}
+
+.tk-canada-type-gibson {
+  font-family: "canada-type-gibson", sans-serif;
+}
+
+/* Hier beginnen die Klassendeklaration */
+
+/* Hier beginnen die Klassendeklaration */
+
+body {
+  font-family: "canada-type-gibson";
+  font-weight: 400;
+  font-size: 150%;
+  background: #d9d9d9;
+}
+
+header {
+  background-color: #404040;
+  box-sizing: border-box;
+
+  padding: 0.5em 0em 1em 0em;
+  margin-bottom: 2em;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: sticky;
+}
+
+main {
+  font-weight: 200;
+}
+
+footer {
+  background: #404040;
+  position: -webkit-sticky;
+
+  padding: 2em 8em 2em 8em;
+  margin-top: 1em;
+
+  text-align: center;
+}
+
+.mittig {
+  margin: 4em;
+  text-align: center;
+}
+
+#suchergebnisse {
+  visibility: visible;
+}
+
+.suchergebnisse {
+  font-weight: 600;
+  font-size: 125%;
+
+  display: flex;
+}
+
+#detailansicht {
+  margin: 2em;
+}
+
+#user-detailansicht {
+  margin: 2em;
+}
+
+input {
+  border: none;
+  background-color: #306073;
+  color: #d9d9d9;
+  padding: 0.5em;
+
+  width: 400px;
+
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border: 0px; /* Beispiel für eine blau gefärbte Umrandung */
+  background-color: #3e7d96; /* Beispiel für einen grauen Hintergrund */
+  color: #d9d9d9; /* Beispiel für eine dunkle Textfarbe */
+  outline: none;
+}
+
+.suchleiste {
+  margin: 1em;
+  color: #d9d9d9;
+  border: none;
+  align-items: center;
+}
+
+.suchleiste input::placeholder {
+  color: #d9d9d9;
+}
+
+button {
+  padding: 0.5em;
+  border: none;
+  background-color: #404040;
+  color: #d9d9d9;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #585858;
+  color: #d9d9d9;
+}
+
+.wrapper {
+  margin: 1em 2em 1em 2em;
+  padding: 0em;
+  font-weight: 400;
+}
+
+.container {
+  visibility: visible;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+
+.box {
+  height: fit-content;
+  padding: 1em;
+  text-align: left;
+  border-radius: 0;
+  background-color: #d9d9d9;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+p .post {
+  margin: 0em;
+  padding: 0em;
+  font-weight: 400;
+}
+
+
+#fehlerhafte-suche {
+  margin: 1em 2em 1em 2em;
+  padding: 0em;
+  font-weight: 400;
+  margin: 0em;
+  padding: 0em;
+  font-weight: 600;
+  font-size: 120%;
+  color: #0d0d0d;
+}
+
+#suchanfrage {
+  visibility: visible;
+  margin-top: 2em;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+section {
+  margin: 3em;
+  padding: 0em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #8c8c8c;
+
+  font-size: 80%;
+  font-weight: 200;
+  color: #8c8c8c;
+
+  margin: 0 1em 0 1em;
+
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+a .visited {
+  text-decoration: none;
+}
+
+.fett-titel {
+  font-weight: 900;
+  font-size: 600%;
+  color: #d9d9d9;
+}
+
+.fett-titel-dunkel {
+  font-weight: 900;
+  font-size: 600%;
+  color: #0d0d0d;
+}
+
+.posting-text {
+  font-weight: 400;
+  font-size: 120%;
+  color: #0d0d0d;
+  vertical-align: middle;
+}
+
+.hashtags {
+  font-weight: 400;
+  font-size: 100%;
+  color: #306073;
+  vertical-align: middle;
+}
+
+.reaktionen {
+  font-weight: 600;
+  font-size: 100%;
+  color: #0d0d0d;
+  vertical-align: middle;
+}
+
+.rang {
+  font-weight: 200;
+  font-size: 100%;
+  color: #404040;
+  vertical-align: middle;
+}
+
+.kommentar {
+  font-size: 100%;
+  font-weight: 200;
+  color: #0d0d0d;
+}
+
+.username {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+.posting-abschnitt {
+  border: 5px #0d0d0d;
+  border-radius: 10px;
+  margin-top: 2em;
+}
+
+.quadrat {
+  max-width: 5em;
+  justify-content: center;
+}

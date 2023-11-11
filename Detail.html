@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="x-icon" href="Logo.png">
+    <title>Postify</title>
+
+
+    <!-- Hier noch Zeile einfügen für Logo im Tab-->
+    <!-- Hier können Sie Metadaten, CSS-Links, JavaScript-Links und andere Ressourcen hinzufügen -->
+
+    <link rel="stylesheet" type="text/css" href="style1_s.css">
+    
+
+    <script src="js_detail.js"></script>
+
+    <!-- Einbinden der Schriftart-->
+    <link rel="stylesheet" href=https://use.typekit.net/rnl8oku.css>
+
+    <!-- Bootstrap einbinden einmal die zugehörige css und js Verknüpfung-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+<!-- Hier ist der Kopfbereich der Seite -->
+    <header>
+        <div>
+            <h1 class="fett-titel">Postify</h1>
+        </div>
+
+    </header>
+    
+    <main>
+<!-- Hier ist ein Abschnitt in dem ein Zurück-button zu Index realisiert werden soll-->        
+        <section>
+            <div class="wrapper">
+                <button class="button" onclick="window.location.href = './Index.html';">Zurück zur Suche</button>
+            </div>
+        </section>
+
+<!-- Hier ist ein Abschnitt mit der Detailausgabe des Postings-->
+        <section>
+            <div id="user-detailansicht" class="wrapper">
+                <!-- hier kommen der Detailierte Userdaten hin-->
+            </div>
+            <div id="detailansicht" class="wrapper">
+                <!-- hier kommen der Detailierte Post hin-->
+            </div>
+
+        </section>
+
+<!-- Hier ist ein Abschnitt mit Kommentaren-->
+        <section>
+            <div class="wrapper">
+                <button id="kommentar-button">Kommentare laden</button>
+            </div>
+            <div class="wrapper" id="fehler-zeile">
+                <!-- hier kommt die Fehlermeldung hin-->
+            </div>
+            <div class="container wrapper" id="comments">
+                <!-- hier kommen die Kommentare hin-->
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <a  href="">Impressum</a>
+        <a  href="">Datenschutz</a>
+        <a  href="">Über uns</a>
+        <a  href="">Cookie Einstellungen</a>
+    </footer>
+</body>
+</html>
